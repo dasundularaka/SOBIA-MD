@@ -13,13 +13,13 @@ try{
 let repo =`
 *╭──────────────●●►*
 > *BOT OWNER:*
-*|* *SOBIA BUTT*
+*|* *𝕯𝕬𝕾𝖀𝕹 𝕯𝖀𝕷𝕬𝕽𝕬𝕶𝕬*
 
-> *SOBIA MD REPO:*
-*|* *https://github.com/Sobxsparl/SOBIA-MD*
+> *BOT NAME:*
+*|* *ZERO XMD*
 
-> *SUPPORT CHANNEL:*
-*|* *https://whatsapp.com/channel/0029VaswGwq5a23yxeJ6YB3t*
+> *FOLLOW US ON:*
+*|* *https://facebbok.com/dasundularaka*
 *╰──────────────●●►*
 
 > *update command Done*
@@ -36,11 +36,11 @@ await conn.sendMessage(from, { text: repo ,
       serverMessageId: 999
     },
 externalAdReply: { 
-title: 'SOBIA MD',
+title: 'ZERO XMD',
 body: `${pushname}`,
 mediaType: 1,
-sourceUrl: "https://github.com/Sobxsparl/SOBIA-MD" ,
-thumbnailUrl: "https://files.catbox.moe/m1rf91.jpg" ,
+sourceUrl: "https://facebook.com/dasundularaka" ,
+thumbnailUrl: "https://files.catbox.moe/3jpwr1.jpg" ,
 renderLargerThumbnail: true,
 showAdAttribution: true
 }
