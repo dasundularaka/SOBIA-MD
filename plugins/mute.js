@@ -21,7 +21,7 @@ if (!isBotAdmins) return reply(mg.needbotadmins);
             return await conn.sendMessage(m.chat, { react: { text: '🔒', key: mass.key } });
 } catch(e) {
 console.log(e);
-reply('*PLEASE GIVE ME A ADDMIN ROLE❗👻*')    
+reply('*PLEASE GIVE ME AN ADMIN ROLE❗👻*')    
 } 
 })
 
@@ -42,11 +42,11 @@ if (!isOwner || !isAdmins) return;
 if (!m.isGroup) return reply(mg.onlygroup);
 if (!isBotAdmins) return reply(mg.needbotadmins);     
             await conn.groupSettingUpdate(m.chat, "not_announcement")
-           const mass = await conn.sendMessage(m.chat, { text: '*GROUP CHAT UNMUTED BY SOBIA MD* 🔒' }, { quoted: mek });
+           const mass = await conn.sendMessage(m.chat, { text: '*GROUP CHAT UNMUTED BY ZERO XMD* 🔒' }, { quoted: mek });
             return await conn.sendMessage(m.chat, { react: { text: '🔒', key: mass.key } });
 } catch(e) {
 console.log(e);
-reply('*PLEASE GIVE ME A ADDMIN ROLE❗👻*')    
+reply('*PLEASE GIVE ME A ADMIN ROLE❗👻*')    
 } 
 })
 
