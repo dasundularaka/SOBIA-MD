@@ -17,7 +17,7 @@ const url = data.url
     
     
 let desc = `
-⫷⦁[ *SOBIA MD MUSIC DOWNLOADING* ]⦁⫸
+⫷⦁[ *ZERO XMD MUSIC DOWNLOADING* ]⦁⫸
 
 🎵 *MUSIC FOUND!* 
 
@@ -29,9 +29,9 @@ let desc = `
 
 🎧 *ENJOY THE MUSIC BROUGHT TO YOU!*
 
-> *SOBIA MD WHATSAPP BOT* 
+> *ZERO XMD WHATSAPP BOT* 
 
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴏʙɪᴀ ʙᴜᴛᴛ* 
+> *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴢᴇʀᴏ xᴍᴅ* 
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -43,7 +43,7 @@ let downloadUrl = down.dl_url
 
 //send audio message
 await conn.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴏʙɪᴀ ʙᴜᴛᴛ*"},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴢᴇʀᴏ xᴍᴅ*"},{quoted:mek})
 
 }catch(e){
 console.log(e)
@@ -70,7 +70,7 @@ const url = data.url
     
     
 let desc = `
-⫷⦁[ *•SOBIA-MD VIDEO DOWNLOADING* ]⦁⫸ 
+⫷⦁[ *•ZERO XMD VIDEO DOWNLOADING* ]⦁⫸ 
 
 🎥 *VIDEO FOUND!* 
 
@@ -82,9 +82,9 @@ let desc = `
 
 🎬 *ENJOY THE VIDEO BROUGHT TO YOU!*
 
-> *SOBIA-MD WHATSAPP BOT* 
+> *ZERO XMD WHATSAPP BOT* 
 
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴏʙɪᴀ ʙᴜᴛᴛ*
+> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴢᴇʀᴏ xᴍᴅ*
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -96,7 +96,7 @@ let downloadUrl = down.dl_url
 
 //send video message
 await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴏʙɪᴀ ʙᴜᴛᴛ*"},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴢᴇʀᴏ xᴍᴅ*"},{quoted:mek})
 
 }catch(e){
 console.log(e)
