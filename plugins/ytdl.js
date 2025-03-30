@@ -92,7 +92,7 @@ cmd({
           case "1":
             await conn.sendMessage(senderID, {
               video: { url: downloadLink },
-              caption: "*SOBIA MD*"
+              caption: "*ZERO XMD*"
             }, { quoted: receivedMsg });
             break;
 
@@ -101,7 +101,7 @@ cmd({
               document: { url: downloadLink },
               mimetype: "video/mp4",
               fileName: `${ytData.title}.mp4`,
-              caption: "*SOBIA MD*"
+              caption: "*ZERO XMD*"
             }, { quoted: receivedMsg });
             break;
 
