@@ -25,7 +25,7 @@ cmd({
         }
 
         const movieInfo = `
-*🎬 SOBIA MD 🎬*
+*🎬 ZERO XMD 🎬*
 
 *ᴛɪᴛʟᴇ:* ${data.Title}
 *ʏᴇᴀʀ:* ${data.Year}
