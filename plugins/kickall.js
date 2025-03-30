@@ -11,7 +11,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
       if (!isAdmins) return reply(`ONLY ADMINS CAN USE THIS CMD 🪄♻️`)
-      if (!isOwner) return reply(`SORRY ADMINS YOU R NOT BOT OWNER 🪄♻️`)
+      if (!isOwner) return reply(`SORRY ADMINS YOU ARE NOT BOT OWNER 🪄♻️`)
       
         // Check if the command is used in a group
         if (!isGroup) return reply(`This command is only for groups.`);
